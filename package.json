@@ -19,5 +19,8 @@
   "bugs": {
     "url": "https://github.com/Suizhazha/wuhu-ui-vue-2.x/issues"
   },
-  "homepage": "https://github.com/Suizhazha/wuhu-ui-vue-2.x#readme"
+  "homepage": "https://github.com/Suizhazha/wuhu-ui-vue-2.x#readme",
+  "dependencies": {
+    "vue": "^2.6.12"
+  }
 }
