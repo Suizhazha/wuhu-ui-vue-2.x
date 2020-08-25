@@ -6,8 +6,8 @@
   <component name="ChangeListManager">
     <list default="true" id="cca0ded5-98b2-4100-af77-0ea54806d000" name="默认的" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/wuhu-ui-vue@2.x.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/wuhu-ui-vue@2.x.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/app.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/button.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/button.vue" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -58,7 +58,7 @@
       <workItem from="1598255634924" duration="3522000" />
       <workItem from="1598326112103" duration="1198000" />
       <workItem from="1598340354452" duration="3205000" />
-      <workItem from="1598343945095" duration="8562000" />
+      <workItem from="1598343945095" duration="12395000" />
     </task>
     <task id="LOCAL-00001" summary="npm install vue">
       <created>1598277114103</created>
@@ -116,7 +116,35 @@
       <option name="project" value="LOCAL" />
       <updated>1598346364034</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="添加icon和 iconPosition属性">
+      <created>1598362189607</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1598362189607</updated>
+    </task>
+    <task id="LOCAL-00010" summary="将svg整理到icon.vue">
+      <created>1598363073722</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1598363073722</updated>
+    </task>
+    <task id="LOCAL-00011" summary="更新了icon的样式">
+      <created>1598363180416</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1598363180416</updated>
+    </task>
+    <task id="LOCAL-00012" summary="添加loading">
+      <created>1598364344685</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1598364344685</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TerminalProjectNonSharedOptionsProvider">
@@ -134,21 +162,29 @@
     <MESSAGE value="修改为单文件组件模式" />
     <MESSAGE value="ignore .cache &amp; dist" />
     <MESSAGE value="ignore .cache &amp; dist &amp;.idea" />
-    <option name="LAST_COMMIT_MESSAGE" value="ignore .cache &amp; dist &amp;.idea" />
+    <MESSAGE value="添加icon和 iconPosition属性" />
+    <MESSAGE value="将svg整理到icon.vue" />
+    <MESSAGE value="更新了icon的样式" />
+    <MESSAGE value="添加loading" />
+    <option name="LAST_COMMIT_MESSAGE" value="添加loading" />
   </component>
   <component name="WindowStateProjectService">
     <state x="1058" y="26" key="#Plugins" timestamp="1598341263417">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="1058" y="26" key="#Plugins/0.0.1920.1040@0.0.1920.1040" timestamp="1598341263417" />
-    <state x="1155" y="0" key="CommitChangelistDialog2" timestamp="1598346363468">
+    <state x="1155" y="0" key="CommitChangelistDialog2" timestamp="1598364344031">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="1155" y="0" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1598346363468" />
+    <state x="1155" y="0" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1598364344031" />
     <state x="922" y="30" key="SettingsEditor" timestamp="1598359804012">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="922" y="30" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1598359804012" />
+    <state x="1118" y="105" width="697" height="561" key="com.intellij.history.integration.ui.views.FileHistoryDialog" timestamp="1598363640470">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="1118" y="105" width="697" height="561" key="com.intellij.history.integration.ui.views.FileHistoryDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1598363640470" />
     <state x="1287" y="295" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1598277173598">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -157,5 +193,17 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="1129" y="164" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1598359769378" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/src/button.vue</url>
+          <line>5</line>
+          <properties lambdaOrdinal="-1" />
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>

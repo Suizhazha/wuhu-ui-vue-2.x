@@ -1,6 +1,10 @@
 <template>
-  <button class="wuhu-button" :class="{[`icon-${iconPosition}`]:true}">
-<wuhu-icon v-if="icon" :name = 'icon'></wuhu-icon>
+  <button class="wuhu-button" :class="{[`icon-${iconPosition}`]:true}"
+  @click="$emit('click')">
+
+    <wuhu-icon class="icon" v-if="icon" :name = 'icon'></wuhu-icon>
+    <wuhu-icon class="loading icon" v-if="loading" name ='loading'></wuhu-icon>
+
     <div class="content">
       <slot></slot>
     </div>
@@ -10,17 +14,30 @@
 <script lang="ts">
 export default {
   name: 'button.vue',
+  // props:[ 'icon', 'iconPosition']
   props: {
     icon: {},
     iconPosition: {
       type: String,
       default: 'left'
+    },
+    loading:{
+      type:Boolean,
+      default: false
     }
   }
 };
 </script>
 
 <style lang="scss" scoped>
+@keyframes spin {
+  0%{ transform: rotate(0deg);  }
+  100%{ transform: rotate(360deg);  }
+}
+.loading{
+  animation: spin 2s infinite linear;
+}
+
 .wuhu-button {
   font-size: var(--font-size);
   height: var(--button-height);
@@ -68,5 +85,6 @@ export default {
       margin-left: .3em;
     }
   }
+
 }
 </style>
