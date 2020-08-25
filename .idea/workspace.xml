@@ -5,7 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="cca0ded5-98b2-4100-af77-0ea54806d000" name="默认的" comment="">
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/wuhu-ui-vue@2.x.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/wuhu-ui-vue@2.x.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/button.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/button.vue" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -37,7 +40,7 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="nodejs_package_manager_path" value="npm" />
-    <property name="settings.editor.selected.configurable" value="configurable.group.appearance" />
+    <property name="settings.editor.selected.configurable" value="reference.idesettings.emmet.css" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -55,7 +58,7 @@
       <workItem from="1598255634924" duration="3522000" />
       <workItem from="1598326112103" duration="1198000" />
       <workItem from="1598340354452" duration="3205000" />
-      <workItem from="1598343945095" duration="2380000" />
+      <workItem from="1598343945095" duration="8562000" />
     </task>
     <task id="LOCAL-00001" summary="npm install vue">
       <created>1598277114103</created>
@@ -106,7 +109,14 @@
       <option name="project" value="LOCAL" />
       <updated>1598346288829</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="ignore .cache &amp; dist &amp;.idea">
+      <created>1598346364034</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1598346364034</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TerminalProjectNonSharedOptionsProvider">
@@ -123,28 +133,29 @@
     <MESSAGE value="基本完成button样式，成功安装parcel-bundler" />
     <MESSAGE value="修改为单文件组件模式" />
     <MESSAGE value="ignore .cache &amp; dist" />
-    <option name="LAST_COMMIT_MESSAGE" value="ignore .cache &amp; dist" />
+    <MESSAGE value="ignore .cache &amp; dist &amp;.idea" />
+    <option name="LAST_COMMIT_MESSAGE" value="ignore .cache &amp; dist &amp;.idea" />
   </component>
   <component name="WindowStateProjectService">
     <state x="1058" y="26" key="#Plugins" timestamp="1598341263417">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="1058" y="26" key="#Plugins/0.0.1920.1040@0.0.1920.1040" timestamp="1598341263417" />
-    <state x="1155" y="0" key="CommitChangelistDialog2" timestamp="1598346288145">
+    <state x="1155" y="0" key="CommitChangelistDialog2" timestamp="1598346363468">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="1155" y="0" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1598346288145" />
-    <state x="922" y="30" key="SettingsEditor" timestamp="1598341610829">
+    <state x="1155" y="0" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1598346363468" />
+    <state x="922" y="30" key="SettingsEditor" timestamp="1598359804012">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="922" y="30" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1598341610829" />
+    <state x="922" y="30" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1598359804012" />
     <state x="1287" y="295" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1598277173598">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="1287" y="295" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1920.1040@0.0.1920.1040" timestamp="1598277173598" />
-    <state x="1129" y="164" width="672" height="678" key="search.everywhere.popup" timestamp="1598342017405">
+    <state x="1129" y="164" width="672" height="678" key="search.everywhere.popup" timestamp="1598359769378">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="1129" y="164" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1598342017405" />
+    <state x="1129" y="164" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1598359769378" />
   </component>
 </project>

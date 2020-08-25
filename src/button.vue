@@ -1,13 +1,20 @@
 <template>
-  <div>
-<button class="wuhu-button">提交</button>
+<button class="wuhu-button" :class="{[`icon-${iconPosition}`]:true}">
+  <svg class="icon">
+
+    <!-- ``中是JS字符串，${icon}是模板字符串的插值-->
+    <use :xlink:href="`#i${icon}`"></use>
+  </svg>
+  <div class="content">
+    <slot></slot>
   </div>
+</button>
 </template>
 
 <script lang="ts">
 export default {
   name: 'button.vue',
-
+props:['icon','iconPosition']
 };
 </script>
 
@@ -19,6 +26,9 @@ export default {
   border-radius: var(--border-radius);
   border: 1px solid var(--border-color);
   background: var(--button-bg);
+
+
+  //有时inline-flex会出现上下不对齐的bug,添加 vertical-align: middle; 解决
   display: inline-flex;
   justify-content: center;
   align-items: center;
@@ -26,12 +36,29 @@ export default {
   &:hover{
     border-color:var(--button-active-bg);
   }
-
   &:active {
     background-color:var(--border-color-hover);
   }
   &:focus{
     outline: none ;
+  }
+
+  >.content{
+    order: 2;
+  }
+  >.icon{
+    order: 1;
+    margin-right: .3em;
+  }
+  &.icon-right{
+    .content{
+      order: 1;
+    }
+    >.icon{
+      order: 2;
+      margin-right: 0;
+      margin-left: .3em;
+    }
   }
 }
 </style>
