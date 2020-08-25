@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="cca0ded5-98b2-4100-af77-0ea54806d000" name="默认的" comment="npm install vue">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -38,8 +38,18 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1598255633708</updated>
-      <workItem from="1598255634924" duration="2495000" />
+      <workItem from="1598255634924" duration="3522000" />
+      <workItem from="1598326112103" duration="1198000" />
+      <workItem from="1598340354452" duration="885000" />
     </task>
+    <task id="LOCAL-00001" summary="npm install vue">
+      <created>1598277114103</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1598277114103</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TerminalProjectNonSharedOptionsProvider">
@@ -51,5 +61,23 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="npm install vue" />
     <option name="LAST_COMMIT_MESSAGE" value="npm install vue" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="1058" y="26" key="#Plugins" timestamp="1598341263417">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="1058" y="26" key="#Plugins/0.0.1920.1040@0.0.1920.1040" timestamp="1598341263417" />
+    <state x="1155" y="0" key="CommitChangelistDialog2" timestamp="1598341465897">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="1155" y="0" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1598341465897" />
+    <state x="1287" y="295" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1598277173598">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="1287" y="295" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1920.1040@0.0.1920.1040" timestamp="1598277173598" />
+    <state x="1129" y="164" width="672" height="678" key="search.everywhere.popup" timestamp="1598276927373">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="1129" y="164" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1598276927373" />
   </component>
 </project>
