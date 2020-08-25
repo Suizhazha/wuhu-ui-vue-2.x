@@ -1,26 +1,28 @@
 <template>
-<button class="wuhu-button" :class="{[`icon-${iconPosition}`]:true}">
-  <svg class="icon">
-
-    <!-- ``中是JS字符串，${icon}是模板字符串的插值-->
-    <use :xlink:href="`#i${icon}`"></use>
-  </svg>
-  <div class="content">
-    <slot></slot>
-  </div>
-</button>
+  <button class="wuhu-button" :class="{[`icon-${iconPosition}`]:true}">
+<wuhu-icon v-if="icon" :name = 'icon'></wuhu-icon>
+    <div class="content">
+      <slot></slot>
+    </div>
+  </button>
 </template>
 
 <script lang="ts">
 export default {
   name: 'button.vue',
-props:['icon','iconPosition']
+  props: {
+    icon: {},
+    iconPosition: {
+      type: String,
+      default: 'left'
+    }
+  }
 };
 </script>
 
 <style lang="scss" scoped>
 .wuhu-button {
-  font-size:var(--font-size);
+  font-size: var(--font-size);
   height: var(--button-height);
   padding: 0 1em;
   border-radius: var(--border-radius);
@@ -33,28 +35,34 @@ props:['icon','iconPosition']
   justify-content: center;
   align-items: center;
   vertical-align: middle;
-  &:hover{
-    border-color:var(--button-active-bg);
-  }
-  &:active {
-    background-color:var(--border-color-hover);
-  }
-  &:focus{
-    outline: none ;
+
+  &:hover {
+    border-color: var(--button-active-bg);
   }
 
-  >.content{
+  &:active {
+    background-color: var(--border-color-hover);
+  }
+
+  &:focus {
+    outline: none;
+  }
+
+  > .content {
     order: 2;
   }
-  >.icon{
+
+  > .icon {
     order: 1;
     margin-right: .3em;
   }
-  &.icon-right{
-    .content{
+
+  &.icon-right {
+    .content {
       order: 1;
     }
-    >.icon{
+
+    > .icon {
       order: 2;
       margin-right: 0;
       margin-left: .3em;
