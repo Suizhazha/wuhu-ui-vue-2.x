@@ -4,11 +4,17 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="cca0ded5-98b2-4100-af77-0ea54806d000" name="默认的" comment="成功引入vue">
-      <change afterPath="$PROJECT_DIR$/button.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+    <list default="true" id="cca0ded5-98b2-4100-af77-0ea54806d000" name="默认的" comment="">
+      <change afterPath="$PROJECT_DIR$/.cache/80/ca31537ee4f83756f48a9c82f05479.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.cache/86/ca34370f00ad3b40a16a4800b0746c.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.cache/ca/d197635b980bbdfb2d8652eaff75d7.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.cache/f5/f3497d93906d8eb63f791ec827290a.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/app.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/button.vue" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/button.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
     </list>
@@ -16,6 +22,13 @@
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Vue Single File Component" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -29,12 +42,18 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="settings.editor.selected.configurable" value="configurable.group.appearance" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="E:\jirengu\wuhu-ui-vue@2.x\src" />
+    </key>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -47,6 +66,7 @@
       <workItem from="1598255634924" duration="3522000" />
       <workItem from="1598326112103" duration="1198000" />
       <workItem from="1598340354452" duration="3205000" />
+      <workItem from="1598343945095" duration="873000" />
     </task>
     <task id="LOCAL-00001" summary="npm install vue">
       <created>1598277114103</created>
@@ -62,7 +82,21 @@
       <option name="project" value="LOCAL" />
       <updated>1598341659929</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="基本完成button">
+      <created>1598343982496</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1598343982496</updated>
+    </task>
+    <task id="LOCAL-00004" summary="基本完成button样式，成功安装parcel-bundler">
+      <created>1598344030657</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1598344030657</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TerminalProjectNonSharedOptionsProvider">
@@ -72,19 +106,22 @@
     <option name="version" value="3" />
   </component>
   <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="npm install vue" />
     <MESSAGE value="成功引入vue" />
-    <option name="LAST_COMMIT_MESSAGE" value="成功引入vue" />
+    <MESSAGE value="基本完成button" />
+    <MESSAGE value="基本完成button样式，成功安装parcel-bundler" />
+    <option name="LAST_COMMIT_MESSAGE" value="基本完成button样式，成功安装parcel-bundler" />
   </component>
   <component name="WindowStateProjectService">
     <state x="1058" y="26" key="#Plugins" timestamp="1598341263417">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="1058" y="26" key="#Plugins/0.0.1920.1040@0.0.1920.1040" timestamp="1598341263417" />
-    <state x="1155" y="0" key="CommitChangelistDialog2" timestamp="1598341659137">
+    <state x="1155" y="0" key="CommitChangelistDialog2" timestamp="1598344030055">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="1155" y="0" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1598341659137" />
+    <state x="1155" y="0" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1598344030055" />
     <state x="922" y="30" key="SettingsEditor" timestamp="1598341610829">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
