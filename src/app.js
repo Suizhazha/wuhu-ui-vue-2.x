@@ -48,6 +48,7 @@ expect(href).to.eq('down')
       loading: true
     }
   })
+  //直接挂载到内存
   vm.$mount()
   let useElement = vm.$el.querySelector('use')
   let href = useElement.getAttribute('xlink:href')

@@ -7,6 +7,7 @@
 </template>
 
 <script lang="ts">
+import './svg'
 export default {
   name: 'icon.vue',
   props:['name']

@@ -5,11 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="cca0ded5-98b2-4100-af77-0ea54806d000" name="默认的" comment="">
+      <change afterPath="$PROJECT_DIR$/src/svg.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/app.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/icon.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/icon.vue" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -62,7 +63,7 @@
       <workItem from="1598340354452" duration="3205000" />
       <workItem from="1598343945095" duration="13152000" />
       <workItem from="1598418001809" duration="4354000" />
-      <workItem from="1598426809078" duration="1800000" />
+      <workItem from="1598426809078" duration="3118000" />
     </task>
     <task id="LOCAL-00001" summary="npm install vue">
       <created>1598277114103</created>
@@ -183,7 +184,14 @@
       <option name="project" value="LOCAL" />
       <updated>1598427010120</updated>
     </task>
-    <option name="localTasksCounter" value="18" />
+    <task id="LOCAL-00018" summary="使用 chai.expect 添加四个测试用例，使用chai.spies监听回调函数">
+      <created>1598428758723</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1598428758723</updated>
+    </task>
+    <option name="localTasksCounter" value="19" />
     <servers />
   </component>
   <component name="TerminalProjectNonSharedOptionsProvider">
@@ -210,17 +218,18 @@
     <MESSAGE value="检查子元素是不是button" />
     <MESSAGE value="安装chai.js以单元测试" />
     <MESSAGE value="修改测试子元素是否为button的bug" />
-    <option name="LAST_COMMIT_MESSAGE" value="修改测试子元素是否为button的bug" />
+    <MESSAGE value="使用 chai.expect 添加四个测试用例，使用chai.spies监听回调函数" />
+    <option name="LAST_COMMIT_MESSAGE" value="使用 chai.expect 添加四个测试用例，使用chai.spies监听回调函数" />
   </component>
   <component name="WindowStateProjectService">
     <state x="1058" y="26" key="#Plugins" timestamp="1598341263417">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="1058" y="26" key="#Plugins/0.0.1920.1040@0.0.1920.1040" timestamp="1598341263417" />
-    <state x="1155" y="0" key="CommitChangelistDialog2" timestamp="1598427009438">
+    <state x="1155" y="0" key="CommitChangelistDialog2" timestamp="1598428758046">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="1155" y="0" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1598427009438" />
+    <state x="1155" y="0" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1598428758046" />
     <state x="922" y="30" key="SettingsEditor" timestamp="1598359804012">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
