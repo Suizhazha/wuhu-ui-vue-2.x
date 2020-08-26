@@ -13,3 +13,9 @@ data:{
     stopLoading:true
 }
 })
+
+//单元测试
+
+{
+  console.log(Button)
+}

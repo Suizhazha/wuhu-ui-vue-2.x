@@ -7,7 +7,7 @@
 <script lang="ts">
 export default {
   mounted() {
-    for (let node of this.$children) {
+    for (let node of this.$el.children) {
       let name = node.nodeName.toLowerCase()
       if (name  !== 'button'){
         console.warn(`wuhu-button-group的子元素应全是wuhu-button,但你写的是￥{name}`);
