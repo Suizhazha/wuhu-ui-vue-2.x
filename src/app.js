@@ -13,8 +13,10 @@ Vue.component('wuhu-input',Input)
 new Vue({
   el:'#app',
 data:{
-    stopLoading:true
+    stopLoading:true,
+    message:'hi'
 },
+
   methods:{
     inputChange(e){
       console.log(e.target.value)

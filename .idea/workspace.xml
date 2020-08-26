@@ -5,16 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="cca0ded5-98b2-4100-af77-0ea54806d000" name="默认的" comment="">
-      <change afterPath="$PROJECT_DIR$/src/input.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/button.test.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/input.test.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/app.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/button-group.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/button-group.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/button.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/button.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/icon.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/icon.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/svg.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/svg.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/input.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/input.vue" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -67,7 +61,7 @@
       <workItem from="1598340354452" duration="3205000" />
       <workItem from="1598343945095" duration="13152000" />
       <workItem from="1598418001809" duration="4354000" />
-      <workItem from="1598426809078" duration="8433000" />
+      <workItem from="1598426809078" duration="9225000" />
     </task>
     <task id="LOCAL-00001" summary="npm install vue">
       <created>1598277114103</created>
@@ -209,7 +203,14 @@
       <option name="project" value="LOCAL" />
       <updated>1598433918228</updated>
     </task>
-    <option name="localTasksCounter" value="21" />
+    <task id="LOCAL-00021" summary="input测试">
+      <created>1598447969100</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1598447969100</updated>
+    </task>
+    <option name="localTasksCounter" value="22" />
     <servers />
   </component>
   <component name="TerminalProjectNonSharedOptionsProvider">
@@ -239,17 +240,18 @@
     <MESSAGE value="使用 chai.expect 添加四个测试用例，使用chai.spies监听回调函数" />
     <MESSAGE value="将svg链接引入为svg.js并在icon.vue中引入" />
     <MESSAGE value="添加 input.vue 及其样式" />
-    <option name="LAST_COMMIT_MESSAGE" value="添加 input.vue 及其样式" />
+    <MESSAGE value="input测试" />
+    <option name="LAST_COMMIT_MESSAGE" value="input测试" />
   </component>
   <component name="WindowStateProjectService">
     <state x="1058" y="26" key="#Plugins" timestamp="1598341263417">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="1058" y="26" key="#Plugins/0.0.1920.1040@0.0.1920.1040" timestamp="1598341263417" />
-    <state x="1155" y="0" key="CommitChangelistDialog2" timestamp="1598433917396">
+    <state x="1155" y="0" key="CommitChangelistDialog2" timestamp="1598447968443">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="1155" y="0" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1598433917396" />
+    <state x="1155" y="0" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1598447968443" />
     <state x="1290" y="45" key="RollbackChangesDialog" timestamp="1598430651022">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>

@@ -1,6 +1,11 @@
 <template>
   <div class="wrapper" :class="{error}">
-    <input :value="value" type="text" :disabled="disabled" :readonly="readonly" @click="$emit('change',$event)">
+    <input :value="value" type="text" :disabled="disabled" :readonly="readonly"
+           @change="$emit('change',$event.target.value)"
+           @input="$emit('input',$event.target.value)"
+           @focus="$emit('focus',$event.target.value)"
+           @blur="$emit('blur',$event.target.value)"
+    >
     <template v-if="error">
       <icon name="error" class="icon-error"></icon>
       <span class="errorMessage">{{ error }}</span>
@@ -14,6 +19,7 @@ import Icon from './icon';
 export default {
   name: 'wuhu-input',
   components: {Icon},
+
   props: {
     value: {
       type: String

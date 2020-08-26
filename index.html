@@ -42,16 +42,21 @@
 
 <div id="app">
   <div class="box">
-
     <wuhu-input value="张三" disabled></wuhu-input>
     <wuhu-input value="李四" readonly></wuhu-input>
     <wuhu-input value="王五" @change="inputChange"></wuhu-input>
   </div>
+
   <div class="box">
 
     <wuhu-input value="王" error="姓名不能少于两个字"></wuhu-input>
   </div>
 
+<div class="box">
+  <wuhu-input v-model ='message'> </wuhu-input>
+  <p>{{message}}</p>
+  <button @click = 'message+=1'>+1</button>
+</div>
 
   <div class="box">
     <wuhu-button>
