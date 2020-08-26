@@ -33,30 +33,44 @@
     }
   </style>
   <style>
-
+.box{
+  margin: 20px;
+}
   </style>
 </head>
 <body>
 
 <div id="app">
-  <wuhu-button >
-    按钮
-  </wuhu-button>
+  <div class="box">
 
-  <wuhu-button icon="settings">
-   设置
-  </wuhu-button>
+    <wuhu-input value="张三" disabled></wuhu-input>
+    <wuhu-input value="李四" readonly></wuhu-input>
+    <wuhu-input value="王五"></wuhu-input>
+  </div>
+  <div class="box">
 
-  <wuhu-button :loading="stopLoading" @click="stopLoading=!stopLoading" >
-   加载
-  </wuhu-button>
+    <wuhu-input value="王" error="姓名不能少于两个字"></wuhu-input>
+  </div>
 
-  <button-group>
-  <wuhu-button icon="left">上一页</wuhu-button>
-  <wuhu-button icon="right" icon-position="right">下一页</wuhu-button>
-  </button-group>
-<div id="test"></div>
 
+  <div class="box">
+    <wuhu-button>
+      按钮
+    </wuhu-button>
+
+    <wuhu-button icon="settings">
+      设置
+    </wuhu-button>
+
+    <wuhu-button :loading="stopLoading" @click="stopLoading=!stopLoading">
+      加载
+    </wuhu-button>
+
+    <button-group>
+      <wuhu-button icon="left">上一页</wuhu-button>
+      <wuhu-button icon="right" icon-position="right">下一页</wuhu-button>
+    </button-group>
+  </div>
 </div>
 
 <script src="./src/app.js"></script>
