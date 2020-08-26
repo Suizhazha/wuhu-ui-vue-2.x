@@ -4,11 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="cca0ded5-98b2-4100-af77-0ea54806d000" name="默认的" comment="">
+    <list default="true" id="cca0ded5-98b2-4100-af77-0ea54806d000" name="默认的" comment="创建了">
+      <change afterPath="$PROJECT_DIR$/src/button-group.vue" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/app.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/button.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/button.vue" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -58,7 +58,8 @@
       <workItem from="1598255634924" duration="3522000" />
       <workItem from="1598326112103" duration="1198000" />
       <workItem from="1598340354452" duration="3205000" />
-      <workItem from="1598343945095" duration="12395000" />
+      <workItem from="1598343945095" duration="13152000" />
+      <workItem from="1598418001809" duration="2786000" />
     </task>
     <task id="LOCAL-00001" summary="npm install vue">
       <created>1598277114103</created>
@@ -144,7 +145,14 @@
       <option name="project" value="LOCAL" />
       <updated>1598364344685</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="设置stopLoading">
+      <created>1598365923471</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1598365923471</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="TerminalProjectNonSharedOptionsProvider">
@@ -166,17 +174,18 @@
     <MESSAGE value="将svg整理到icon.vue" />
     <MESSAGE value="更新了icon的样式" />
     <MESSAGE value="添加loading" />
-    <option name="LAST_COMMIT_MESSAGE" value="添加loading" />
+    <MESSAGE value="设置stopLoading" />
+    <option name="LAST_COMMIT_MESSAGE" value="设置stopLoading" />
   </component>
   <component name="WindowStateProjectService">
     <state x="1058" y="26" key="#Plugins" timestamp="1598341263417">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="1058" y="26" key="#Plugins/0.0.1920.1040@0.0.1920.1040" timestamp="1598341263417" />
-    <state x="1155" y="0" key="CommitChangelistDialog2" timestamp="1598364344031">
+    <state x="1155" y="0" key="CommitChangelistDialog2" timestamp="1598424873992">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="1155" y="0" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1598364344031" />
+    <state x="1155" y="0" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1598424873992" />
     <state x="922" y="30" key="SettingsEditor" timestamp="1598359804012">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -200,7 +209,6 @@
         <line-breakpoint enabled="true" type="javascript">
           <url>file://$PROJECT_DIR$/src/button.vue</url>
           <line>5</line>
-          <properties lambdaOrdinal="-1" />
           <option name="timeStamp" value="1" />
         </line-breakpoint>
       </breakpoints>
