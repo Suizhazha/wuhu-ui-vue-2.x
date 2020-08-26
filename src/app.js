@@ -5,7 +5,7 @@ import ButtonGroup from './button-group.vue'
 
 Vue.component('wuhu-button',Button)
 Vue.component('wuhu-icon',Icon)
-Vue.component(' wuhu-button-group',ButtonGroup)
+Vue.component('button-group',ButtonGroup)
 
 new Vue({
   el:'#app',
